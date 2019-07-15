@@ -1,0 +1,3 @@
+== Exceptions
+
+Runtime exceptions are also known as unchecked exceptions.

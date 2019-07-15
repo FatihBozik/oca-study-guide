@@ -1,0 +1,19 @@
+= Working With Dates and Times
+
+[source,java]
+----
+import java.time.*; // import time classes
+----
+
+== Creating Date and Times
+
+*LocalDate* Sadece tarih içerir. Zaman ve zaman dilimi içermez. LocalDate'e en güzel örnek doğum gününüzdür.
+
+*LocalTime* Sadece zamanı içerir. Tarih ve zaman dilimi içermez. LocalTime'a en güzel örnek gece yarısıdır.
+
+*LocalDateTime* Tarih ve zamanı içerir. Zaman dilimini içermez. Örnek: Yeni yılın ilk gece yarısı
+
+Oracle mümkün olduğu kadar zaman diliminden kaçınılmasını öneriyor. Eğer ihtiyaç duyarsanız `ZonedDateTime` sınıfına göz atabilirsiniz.
+
+
+
