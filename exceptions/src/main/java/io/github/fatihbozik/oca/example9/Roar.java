@@ -1,0 +1,5 @@
+package io.github.fatihbozik.oca.example9;
+
+public interface Roar {
+    void roar() throws HasSoreThroatException;
+}
