@@ -2,3 +2,9 @@
 .idea
 *.iml
 out
+
+# Java
+*.class
+
+# Miscellaneous
+.DS_Store
